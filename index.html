@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>DOM Практика Dashboard</h1>
+    </header>
+
+    <section id="dom1">
+        <h2>DOM 1: Элементтер менен иштөө</h2>
+        <p id="dom1-text">Бул текст DOM аркылуу өзгөртүлөт.</p>
+        <button id="change-text">Текстти өзгөртүү</button>
+    </section>
+
+    <section id="search-calculator">
+        <h2>Поиск жана Калькулятор</h2>
+        <input type="text" id="search-input" placeholder="Издөө...">
+        <ul id="search-list">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+        </ul>
+        <input type="number" id="num1" placeholder="Сан 1">
+        <input type="number" id="num2" placeholder="Сан 2">
+        <button id="calc-sum">Сумма эсептөө</button>
+        <p id="sum-result"></p>
+    </section>
+
+    <section id="text-editor">
+        <h2>DOM 3: Текст редактор</h2>
+        <textarea id="editor" rows="4" cols="50">Бул текстти өзгөртсө болот</textarea>
+        <button id="save-text">Сактоо</button>
+        <p id="saved-text"></p>
+    </section>
+
+    <section id="attributes">
+        <h2>DOM4: SetAttribute & GetAttribute</h2>
+        <img id="my-img" src="https://via.placeholder.com/150" alt="Placeholder">
+        <button id="change-img">Сүрөттү алмаштыруу</button>
+        <p id="img-attr"></p>
+    </section>
+
+    <section id="create-element">
+        <h2>DOM5: createElement & prepend</h2>
+        <input type="text" id="new-item" placeholder="Жаңы элемент жаз">
+        <button id="add-item">Кошуу</button>
+        <ul id="item-list">
+            <li>Элемент 1</li>
+            <li>Элемент 2</li>
+        </ul>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
